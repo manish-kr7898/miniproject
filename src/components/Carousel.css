@@ -1,0 +1,49 @@
+.Scroll{
+    justify-content: end;
+}
+.demof .Scroll{
+    border: 1px solid #ccc;
+    margin: 25px 0;
+}
+.demof ul{
+    padding: 0;
+    list-style: none;
+}
+.demof li{
+    padding: 20px;
+    border-bottom: 1px dashed #ccc;
+}
+.demof li.odd{
+    background: #fafafa;
+}
+.demof li:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.demof img{
+    float: left;
+    width: 100px;
+    margin: 5px 15px 0 0;
+}
+.demof a{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #06f;
+}
+.demof p {
+    margin: 15px 0 0;
+    font-size: 14px;
+}
+
+.card{
+    width: 70%;
+    height: 100%;
+    font-size: large;
+}
+
+.Service{
+   text-align: center;
+   font-size: large;
+}
